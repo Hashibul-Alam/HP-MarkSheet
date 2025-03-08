@@ -28,9 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        <nav>
+        <nav className="flex justify-center gap-5" >
           <Link href="/">Home</Link>
-          <Link href="/marksheet">About</Link>
+          <Link href="/marksheet">MarkSheet</Link>
         </nav>
         {children}
       </body>
